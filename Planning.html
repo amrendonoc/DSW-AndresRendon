@@ -17,82 +17,25 @@
         <article>
             <h2>Objetivo general</h2>
             <p>
-                Diseñar y crear un sitio web que permita consultar información de que es un sistema de control de versiones
-                como GIT y GITHUB, utilizando herramientas de recursos digitales para facilitar su entendimiento.
+                Diseñar y crear un sitio web para para presentar de contenido en HTML ( SECTION, ASIDE, FOOTER, ARTICLE) y 
+				crear las versiones-
             </p>
             <h2>Objetivo especifico</h2>
             <li>Conocer y entender que es un sistema de versiones.</li>
-            <li>Conocer que es GIT, Instalacion y funcionamiento.</li>
-            <li>Conocer que es GITHUB utilización y uso.</li>
-            <li>Evaluar el conocimiento adquirido del tema con un cuestionario</li>
+            <li>Conocer del maneo Contenido en HTML ( SECTION, ASIDE, FOOTER, ARTICLE).</li>
+            
         </article>
     </section>
 
-    <section>
-        <article>
-            <h2>imágenes</h2>
-            <p>
-                <a> https://pixabay.com/es/images/search/github/</a>
-                <br>
-                <br>
-                <a>
-                    https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGit_ciclo_de_vida_de_archivos_git.svg&psig=AOvVaw2yrBM4KPyA943Sbmc-3nRb&ust=1610140059341000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjymavdiu4CFQAAAAAdAAAAABAE
-                </a>
-            </p>
-
-            <h2>Videos</h2>
-            <p>
-                <a>
-                    Controladores de versiones
-                    https://www.youtube.com/watch?v=ewai271CiLQ
-                </a>
-                <br>
-                <br>
-                <a>
-                    VIDEOTUTORIAL INTRODUCCIÓN A GIT
-                    https://www.youtube.com/watch?v=w98PuW0XSVs&feature=emb_logo
-                </a>
-                <br>
-                <br>
-                <a>
-                    VIDEOTUTORIAL GIT No. 2 INSTALACIÓN Y OPERACIONES BÁSICAS
-                    https://www.youtube.com/watch?v=PPluY5K4nIg&feature=emb_logo
-                </a>
-                <br>
-                <br>
-                <a>
-                    Git y Github | Curso Práctico de Git y Github Desde Cero
-                    https://www.youtube.com/watch?v=HiXLkL42tMU&t=1667s
-                </a>
-                <br>
-                <br>
-                <a>
-                    ¿Qué es github? ¿Cómo usarlo? - Un vistazo general para principiantes - Github desktop
-                    https://www.youtube.com/watch?v=eMuX1co8FNs
-                </a>
-            </p>
-
-            <h2>Guías</h2>
-            <p>
-                <a>Git
-                    https://git-scm.com/book/es/v2
-                </a>
-                <br>
-                <br>
-                <a>
-                    GitHub
-                    https://docs.github.com/es/free-pro-team@latest/github
-                    
-                </a>
-            </p>
-        </article>
-    </section>
-
+	<BR>
     <section>
 
         <h2>Qué es el control de versiones</h2>
+		 <a>GitHub
+                    https://github.com/amrendonoc/DSW-AndresRendon/tree/AndresRendon
+        </a>
 
-        <p>
+        <p align="justify">
             Se llama control de versiones a la gestión de los diversos cambios que se realizan sobre los elementos de algún producto o una configuración del mismo. Una versión, revisión o edición de un producto, es el estado en el que se encuentra el mismo en un momento dado de su desarrollo o modificación.
             Los sistemas de control de versiones son una categoría de herramientas de software que ayudan a un equipo de software a gestionar los cambios en el código fuente a lo largo del tiempo. El software de control de versiones realiza un seguimiento de todas las modificaciones en el código en un tipo especial de base de datos. Si se comete un error, los desarrolladores pueden ir atrás en el tiempo y comparar las versiones anteriores del código para ayudar a resolver el error al tiempo que se minimizan las interrupciones para todos los miembros del equipo.
             Un sistema de control de versiones debe proporcionar:
@@ -103,74 +46,61 @@
         </p>
 
     </section>
-
+	<BR>
     <section>
-
-        <h2>Que es GIT</h2>
+           
+        <h1>FUNCIONES</h1>
+           
+        <h3>Que es SECTION?</h3>
         
-        <p>
-            Git es un sistema de control de versiones distribuido; esto quiere decir que mantiene una copia local del repositorio completo.
-            Al disponer de un repositorio local, puedes hacer commit (enviar cambios al sistema de control de versiones) en local, sin necesidad de estar conectado a Internet o cualquier otra red.
-            Git permite realizar un seguimiento de los cambios realizados en un proyecto a lo largo del tiempo y funciona registrando los cambios que realiza en un proyecto, almacenando esos cambios y luego permitiéndole consultarlos según sea necesario.
-            Git tiene tres estados principales en los que se pueden encontrar tus archivos: confirmado (committed), modificado (modified), y preparado (staged).
-            Confirmado significa que los datos están almacenados de manera segura en tu base de datos local.
-            Modificado significa que has modificado el archivo pero todavía no lo has confirmado a tu base de datos.
-            Preparado significa que has marcado un archivo modificado en su versión actual para que vaya en tu próxima confirmación.
-            También consta de tres partes:
-            Un directorio de trabajo (Working Directory): donde harás todo el trabajo: crear, editar, eliminar y organizar archivos
-            Un área de preparación (Staging Area): donde se enumerarán los cambios que se realicen en el directorio de trabajo
-            Un repositorio (Git Directory — Repository): donde Git almacena permanentemente esos cambios como diferentes versiones del proyecto
-            El flujo de trabajo de Git consiste en editar archivos en el directorio de trabajo, agregar archivos al área de preparación y guardar los cambios en un repositorio.
-            Comando.
-            git init
-            Con éste comando se inicializa un repositorio, es decir, con este comando le decimos a Git que haga seguimiento de todo lo que hagamos en la carpeta actual.
-            
-            git add
-            Con éste comando añade archivos modificados, es decir, vendría a ser el comando que añade el articulo a la caja o sobre. Recibe un parametro, este parametro es el path del archivo a añadir.
-            
-            git commit --message=""
-            Con éste comando se sella el sobre con el nombre del usuario, correo y mensaje principal de los cambios hechos.
-            
-            git remote add origin url_del_repositorio.git
-            Este comando solo se usa una vez, solo cuando el repositorio está recién creado, despues de la primera vez que se usa, no es necesario volverlo a utilizar.
-            
-            git push -u origin master
-            Este comando tal y como se pasó anteriormente solo se pasa una vez, despues de la primera vez solo será necesario hacer uso de git push sin parametros.
-            
-            git diff
-            Este comando nos muestra los cambios linea por linea que tienen los archivos, recibe un parametro, el parametro que se le pasa es el path del archivo del que queremos ver los cambios provicionales.
-            
-            git status
-            Este comando mustra el estado actual del repositorio local, es decir, no dice que archivos han sido modificados, agregados o eliminados.
-            
-            git reset
-            Este comando vuelve a dejar los archivos sin seguimiento, revierte el efecto del comando git add.
-            
-            git log
-            Con este comando se muestran los commits que se han hecho, tanto locales, como los del repositorio en produccion.
-            
-            git show
-            Este comando recibe un parametro, en este parametro se tiene que especificar el hash o numero unico de commit, la salida de este comando muestra los cambios asociados a un commit.
-            
-            git checkout
-            git checkout tiene que ejecutarse con un parametro, este parametro especifica el path de un archivo, cuando este parametro es ejecutado, lo que hace es quitar las modificaciones de los archivos especificados. Este comando tiene muchos usos a parte del anteriormente descrito.                      
+        <p align="justify">
+            El elemento de HTML section: representa una sección genérica de un documento. 
+			Sirve para determinar qué contenido corresponde a qué parte de un esquema. Piensa en el 
+			esquema como en el índice de contenido de un libro; un tema común y subsecciones relacionadas. 
+			Es, por lo tanto, una etiquéta semántica. Su funcionalidad principal es estructurar semánticamente 
+			un documento a la hora de ser representado por parte de un agente usuario. Por ejemplo, un agente
+			de usuario que represente el documento en voz, podría exponer al usuario el índice de contenido por
+			niveles para navegar rápidamente por las distintas partes.
+                    
         </p>
     </section>
-
-    <section>
-
-        <h2>¿Qué es Github?</h2>
-
-        <p>
-            Es una plataforma de desarrollo colaborativo, o también llamada la red social de los desarrolladores donde se alojan los repositorios, el código se almacena de forma pública pero se puede hacer privado con una cuenta de pago.
-            es un sitio web y un servicio en la nube que ayuda a los desarrolladores a almacenar y administrar su código, al igual que llevar un registro y control de cualquier cambio sobre este código.
-            Github nos ofrece la opción de crear un repositorio vacío, recomendable cuando vamos a iniciar un nuevo desarrollo, o la opción de importar un proyecto ya existente            
+	  <section>        
+        <h3>Que es ASIDE?</h3>
+        
+        <p align="justify">
+            En una distribución estándar de una página web, la barra lateral está situada al lado de la barra de 
+			contenido principal.Es una columna o sección que normalmente contiene datos relacionados al contenido
+			principal pero con una relevancia o importancia menor. En el diseño estándar de un blog, la barra lateral
+			contiene una lista de links. La información dentro de esta barra está relacionada con el contenido principal 
+			de la página pero no es relevante por si sola. Siguiendo con el ejemplo del blog, podemos decir que las entradas
+			del blog son importantes, pero los links y resúmenes de esas entradas son sólo una ayuda navegacional y no en lo 
+			que el lector o usuario está más interesado. HTML5, podemos diferenciar este tipo de información secundaria con el elemento "< aside >".
         </p>
-
     </section>
-
-    <img src="img/mokap1.png" alt="img" width="600" height="400">
-    <img src="img/mokap2.png" alt="img" width="600" height="400">
+	
+	<section>
+      <h3>Que es FOOTER?</h3>
+        
+        <p align="justify">
+            El footer es un elemento de diseño web también llamado pie de página, que indica el final de una página web y se pone en la parte de abajo de una página web.
+			Puede servir para mejorar la navegación, mostrar información adicional, indicar el propietario o creador de la web, mostrar un copyright, poner enlaces de 
+			interés, o simplemente para indicar la parte final de una página.
+                    
+        </p>
+    </section>
+	
+	<section>
+      <h3>Que es ARTICLE?</h3>
+        
+        <p align="justify">
+            
+            El Elemento article de HTML (< article >) representa una composición auto-contenida en un documento, página, una aplicación
+			o en el sitio, que se destina a distribuir de forma independiente o reutilizable, por ejemplo, en la indicación. Podría ser 
+			un mensaje en un foro, un artículo de una revista o un periódico, una entrada de blog, un comentario de un usuario, un widget
+			interactivo o gadget, o cualquier otro elemento independiente del contenido.        
+        </p>
+    </section>
+  
 </body>
 
 </html>
