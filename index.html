@@ -5,11 +5,41 @@
     <title>Index</title>
     <meta charset="UTF-8">
     <meta name="title" content="GIT Y GITHUB">
-    <meta name="description" content="pagina tarea 2 Diseño de sitios web">
+    <meta name="description" content="Index">
+	<script src="javascrip/menu.js"></script>
 </head>
 
 <body background="imagenes/imagen_fondo.jpg">
-    <header>
+
+<div class="barralateral">
+
+       
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+
+                <li><a>Conceptos</a>
+                    <ul>
+                        <li><a href="git.html">GIT</a></li>
+                        <li><a href="github.html">GITHUB</a></li>
+                    </ul>
+                </li>
+
+                <li><a>Recursos</a>
+                    <ul>
+                        <li><a class="activada" href="videos.html">Videos</a></li>
+                        <li><a href="documentos.html">Documentos</a></li>
+                    </ul>
+                </li>
+                <li><a href="autoevaluacion.html">Autoevaluación</a></li>
+
+            </ul>
+        </nav>
+    </div>
+  
+
+  <header>
 		<br> 
 		<br> 
         <h1>Universidad Nacional Abierta y a Distancia</h1>
@@ -29,9 +59,37 @@
     </section>
 
    
+<a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()">
+        Abrir menu
+    </a>
+    <a id="cerrar" class="abrir-cerrar" href="javascript:void(0)" onclick="ocultar()">
+        Cerrar menu
+    </a>
 
-
-
+<footer>
+        <div class="piepagina">
+            <address>
+                Siguenos en:
+                <div class="iconfooter">
+                    <a href="https://www.facebook.com/UniversidadUNAD" target="_black">
+                        <img class="imgheader" src="./img/redsocial/1.png" height="60" width="60">
+                    </a>
+                    <a href="https://www.instagram.com/universidadunad/" target="_black">
+                        <img class="imgheader" src="./img/redsocial/2.png" height="60" width="60">
+                    </a>
+                    <a href="https://www.linkedin.com/authwall?trk=ripf&trkInfo=AQEv1mLrX6zb9gAAAXdmJydQLA7A0nxy7IFRZ87pLjQs9GB3dnU0gd-w2zf2y4C85gK-Ra9lRP4ljGkxTSTz2PP5KrOAiqipNkUXTqHBWzFAE4TdScAveUeWkluGXUGk6rfFTRw=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Funiversidadunad%2F" target="_black">
+                        <img class="imgheader" src="./img/redsocial/3.png" height="60" width="60">
+                    </a>
+                    <a href="https://twitter.com/UniversidadUNAD" target="_black">
+                        <img class="imgheader" src="./img/redsocial/4.png" height="60" width="60">
+                    </a>
+                    <a href="https://www.youtube.com/c/universidadunadTvUnadVirtual" target="_black">
+                        <img class="imgheader" src="./img/redsocial/5.png" height="60" width="60">
+                    </a>
+                </div>
+            </address>
+        </div>
+    </footer>
    
 </body>
 
