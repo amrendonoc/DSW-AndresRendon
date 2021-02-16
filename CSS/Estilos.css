@@ -39,6 +39,14 @@ div#body
 	height:1100px;
 	/*background-color:#b3b3b3;*/
 }
+div#bodyvideos
+{
+	
+	margin-top:80X;
+	width:680px;
+	height:100%;
+	/*background-color:#b3b3b3;*/
+}
 
 div#footer
 {
