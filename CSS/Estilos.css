@@ -10,8 +10,9 @@ div#general
 {
 	margin:auto;
 	margin-top:10px;
-	width:1280px;
+	width:1000px;
 	height:100%;
+	background:yellow;
 	
 }
 div#derecha
@@ -33,7 +34,7 @@ div#body
 {
 	
 	margin-top:80X;
-	width:850px;
+	width:800px;
 	height:1100px;
 	background-color:#b3b3b3;
 }
