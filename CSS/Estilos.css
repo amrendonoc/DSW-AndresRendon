@@ -12,7 +12,8 @@ div#general
 	margin-top:10px;
 	width:1000px;
 	height:100%;
-	background:yellow;
+	/*background:yellow;*/
+	
 	
 }
 div#derecha
@@ -20,7 +21,7 @@ div#derecha
 	float:right;
 	width:300px;
 	height:880px;
-background-color:#005883;
+/*background-color:#005883;*/
 }
 
 div#cabecera{
@@ -34,9 +35,9 @@ div#body
 {
 	
 	margin-top:80X;
-	width:800px;
+	width:680px;
 	height:1100px;
-	background-color:#b3b3b3;
+	/*background-color:#b3b3b3;*/
 }
 
 div#footer
